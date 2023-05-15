@@ -1,0 +1,245 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@parulchopra1998 
+emiliefortiermarcoux
+/
+Portfolio
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Portfolio/index.html
+@omika17
+omika17 first commit
+Latest commit 607e418 on Dec 5, 2021
+ History
+ 1 contributor
+202 lines (183 sloc)  8.08 KB
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Emilie, Deveoppeuse </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">.</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Projets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Competences">Competences</a>
+            </li>  
+            <li class="nav-item">
+                <a class="nav-link" href="#Apropos">A propos</a>
+            </li>
+        </ul>
+        <a class="navbar-brand" href="https://github.com/emiliefortiermarcoux">
+            <img src="./img/github.png" width="20" height="20" alt="">
+        </a>        
+        <a class="navbar-brand" href="https://www.linkedin.com/in/emiliefortiermarcoux">
+            <img src="./img/linkedin.png" width="20" height="20" alt="">
+        </a>
+    </div>
+</nav>
+
+<section class="presentation">
+    <div class="prenom wrapper">
+        <h1 class="typing-effect" onmouseover="mOver(this)" onmouseout="mOut(this)">Emilie Fortier-Marcoux</h1>
+    </div>
+</section>
+<hr>
+
+
+<section class="Competences" id="Competences">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-12">Competences techniques</h2>
+        </div>
+        <div class="row ">
+            <div class="col-md-3 col-sm-12 ul__competences">
+                <ul class="animated fadeIn">
+                    <li>
+                        <p class="animated fadeIn">Javascript</p>
+                    </li>                
+                    <li>
+                        <p>React</p>
+                    </li>                
+                    <li>
+                        <p>Vue.js</p>
+                    </li>
+                    <li>
+                        <p>Angular</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-12 ul__competences">
+            <ul>
+                <li>
+                    <p>CSS</p>
+                </li>                
+                <li>
+                    <p>SASS</p>
+                </li>
+                <li>
+                    <p>Bootstrap</p>
+                </li>
+                <li>
+                    <p>Flexbox</p>
+                </li>                    
+            </ul>
+            </div>
+            <div class="col-md-3 col-sm-12 ul__competences">
+                <ul>
+                    <li>
+                        <p>Mysql</p>
+                    </li>                
+                    <li>
+                        <p>PhpMyadmin</p>
+                    </li>                
+                    <li>
+                        <p>Ampps</p>
+                    </li>
+                    <li>
+                        <p>Git</p>
+                    </li>                
+                    <li>
+                        <p>Wordpress</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-12 ul__competences">
+                <ul>
+                    <li>
+                        <p>Illustrator</p>
+                    </li>                
+                    <li>
+                        <p>Photoshop</p>
+                    </li>                
+                    <li>
+                        <p>InDesign</p>
+                    </li>
+                    <li>
+                        <p>Premiere Pro</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+
+
+<section class="PortfolioCards" id="Portfolio">
+    <div class="container">
+        <div class="row portfolio__titre">
+            <h2 class="col-12">Projets</h2>
+        </div>
+        <div class="row portfolio__row">
+            <div class="col-md-6 col-sm-12">
+                <img class="Projet1">
+                <h4 class="Projet1">Respire</h4>
+                <p>Projet de site responsive ayant pour but de relaxer durant la pandemie. Utilisation de Bootstrap et CSS pour le design et Javascript.</p>
+                <a href="https://aimielee00.github.io/IntegrationWeb1/ExamFinal/index.html" class="lien__portfolio">Pour visiter le site Respire</a>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="Projet2">
+                <h4 class="Projet2">Omika</h4>
+                <p>Portfolio pour graphiste. Utilisation de SASS pour le deisgn et Javascript pour les animations.</p>
+                <a href="https://omika17.github.io/integration/" class="lien__portfolio">Pour visiter le site web Omika</a>
+            </div>
+        </div>
+        <div class="row portfolio__row">
+            <div class="col-md-6 col-sm-12">
+                <img class="Projet3">
+                <h4 class="Projet3">Clone de Tinder</h4>
+                <p>Projet de replique de l'application Tinder avec la librairie React en utilisant Bootstrap pour le design et UI material.</p>
+                <a  class="lien__portfolio" href="https://github.com/emiliefortiermarcoux/React">Pour voir le code source</a>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img class="Projet4">
+                <h4 class="Projet4">Reflet d'âme</h4>
+                <p>Petite boutique en ligne en utilisant Wordpress et ses plugins.</p>
+                <a href="https://refletdame.com/" class="lien__portfolio">Pour visiter le site web</a>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+
+
+
+<section class="apropos" id="apropos">
+    <div class="container container__apropos">
+        <h2 class="titre__apropos">A propos</h2>
+        <p>Bonjour, mon nom est Emilie et je graduerai en programmation web. J'ai reçu mon diplome en graphisme en 2018 et j'ai travaillé comme travailleuse autonomne pour
+            concevoir des logos pour des entrepreneurs. J'aimerais trouver un emploi flexible, stimulant qui me permet de travailler de la maison. Je suis une femme créative qui a une bonne
+            gestion de temps et qui adore apprendre. Je suis aussi une passionnée de yoga et de méditation. Pour me contacter, visitez mon <a href="https://www.linkedin.com/in/emiliefortiermarcoux" class="apropos__lien">LinkedIn</a>. À bientôt!
+        </p>
+    </div>
+</section>
+
+
+
+<hr>
+
+<section class="Diplomes">
+    <div class="container">
+        <h2 class="titre__diplomes">Diplomes</h2>
+        <p class="p__diplomes"> AEC Graphisme- 2018</p>
+        <p class="p__diplomes"> AEC Developpement web - diplome envisagé en 2022</p>
+    </div>
+</section>
+
+<hr>
+
+    Tous droits reverses - Emilie Fortier-Marcoux
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</html>
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Portfolio/index.html at 607e418844f905c7a0b267aef4eaa20a5f75e15e · emiliefortiermarcoux/Portfolio
